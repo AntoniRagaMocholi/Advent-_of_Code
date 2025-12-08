@@ -17,3 +17,10 @@ Por último en el main se gestiona la apertura y cierre del archivo que posee lo
 Itera cada número que contienen los rangos y en caso de detectar que es inválido, almacena en la variable sumaInválidos la suma de los valores inválidos.
 
 <img width="772" height="331" alt="image" src="https://github.com/user-attachments/assets/f9ddb443-3aa3-4e75-9d18-8c246a43ffca" />
+
+Para la parte dos del problema, se modifica la función esInvalido, de manera que se incluyen números que previamente con eran inválidos, puesto que los requisitos cambian y ahora pasan a considerarse como tal.
+
+<img width="515" height="515" alt="image" src="https://github.com/user-attachments/assets/935c0717-8944-47be-bf15-1b17f6c5711e" />
+
+Ahora las secuencias de números que se repitan como mínimo dos veces serán consideradas como inválidas.
+
