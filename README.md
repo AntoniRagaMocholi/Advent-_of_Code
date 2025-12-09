@@ -72,3 +72,16 @@ Mediante la función vecinos se decide dónde ir en el siguiente movimiento.
 La última función relevante es contarTimelines, usada para la segunda parte. Esta lo que hace es mediante uso de memoria y recursividad, cuenta los posibles caminos del rayo. 
 
 El resto son llamadas a estas funciones para que se ejecuten (main y resolver_problema).
+
+
+COMENTARIO A_O_C_DIA_5
+
+En primer lugar el código almacena en el vector de estructuras de tipo Rango los valores que se encuentran en el archivo mediante la variablñe linea hasta que este se encuentre con la línea vacía, ademas de que en la variable nrangos se sume continuamente cada vez que se modifica el vector para llevar el recuento de rangos.
+
+<img width="760" height="770" alt="image" src="https://github.com/user-attachments/assets/12d418b6-f9eb-4e88-ae23-f5c8ca3c14ff" />
+
+
+Tras esto y por último en este código usaremos una función que guarda el valor contenido en el archivo, y mediante un bucle comprueba si el numero se encuentra en algun rango de los ya guardados, en este caso la variable llamada esFresco sera true y si esto sucede significa que el valor se encuentra en alguno de los rangos sumando así en una unidad el recuento de alimentos frescos.
+<img width="814" height="584" alt="image" src="https://github.com/user-attachments/assets/9df2455c-ae4f-42e6-937e-2eb221be7ba1" />
+
+
