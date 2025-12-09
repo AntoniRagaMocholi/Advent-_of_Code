@@ -40,7 +40,10 @@ Finalmente calculamos cuantas filas y columnas tiene el archivo, lo recorremos e
 <img width="676" height="361" alt="image" src="https://github.com/user-attachments/assets/06409c9f-026b-41c6-b8c7-be1736fa9808" />
 
 En la segunda parte nos piden que eliminemos los rollos accesibles y volvamos a recorrer el archivopara elminiar los rollos que se vuelvan accesibles tras eliminar los accesibles anteriores.
+Aqui creamos una funcion que se encarga de contar cuantos son accesibles y sustituirlos por 'X'.
 
 <img width="703" height="274" alt="image" src="https://github.com/user-attachments/assets/2e25650b-670f-4079-9e50-e99f3d53f39d" />
 
+Ahora el programa se encarga de sumar a una variable total el numero de rollos que va eliminando la funcion anterior, hasta que esta no detecte ningun rollo más, que es cuando el programa te muestra el numero de rollos totales por pantalla y acaba.
 
+<img width="567" height="266" alt="image" src="https://github.com/user-attachments/assets/79a62c9a-c14f-43dd-8210-08552a0f1a91" />
