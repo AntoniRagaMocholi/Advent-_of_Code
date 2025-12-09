@@ -27,3 +27,20 @@ Ahora las secuencias de números que se repitan como mínimo dos veces serán co
 COMENTARIO A_O_C_DIA_4
 
 En el cuarto día nos piden crear un programa que lea un archivo que contiene secuenciuas de '.' y '@' donde las arrobas son rollos de papel. El programa te deberá indicar cuantos rollos son accesibles, siendolo estos cuando tienen menos de 4 arrobas en las 8 casillas adyacentes.
+Primero creamos una funcion que se encarga de contar cuantas arrobas adyacentes tiene una casilla en concreto y devuelve este número.
+
+<img width="740" height="324" alt="image" src="https://github.com/user-attachments/assets/0a355e71-ec21-4cfb-9c2f-8220f571771c" />
+
+Ahora leemos el archivo desde la entrada estándar y lo guardamos como una matriz de carácteres.
+
+<img width="406" height="154" alt="image" src="https://github.com/user-attachments/assets/e777bbaa-efbc-478c-80e8-61f758eabf03" />
+
+Finalmente calculamos cuantas filas y columnas tiene el archivo, lo recorremos entero y sumamos 1 a la variable NumX por cada '@' que no este rodeado por 4 o mas arrobas para luego imprimir por pantalla el numero de rollos de papel accesibles.
+
+<img width="676" height="361" alt="image" src="https://github.com/user-attachments/assets/06409c9f-026b-41c6-b8c7-be1736fa9808" />
+
+En la segunda parte nos piden que eliminemos los rollos accesibles y volvamos a recorrer el archivopara elminiar los rollos que se vuelvan accesibles tras eliminar los accesibles anteriores.
+
+<img width="703" height="274" alt="image" src="https://github.com/user-attachments/assets/2e25650b-670f-4079-9e50-e99f3d53f39d" />
+
+
