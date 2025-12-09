@@ -47,3 +47,28 @@ Aqui creamos una funcion que se encarga de contar cuantos son accesibles y susti
 Ahora el programa se encarga de sumar a una variable total el numero de rollos que va eliminando la funcion anterior, hasta que esta no detecte ningun rollo más, que es cuando el programa te muestra el numero de rollos totales por pantalla y acaba.
 
 <img width="567" height="266" alt="image" src="https://github.com/user-attachments/assets/79a62c9a-c14f-43dd-8210-08552a0f1a91" />
+
+
+COMENTARIO A_O_C_DIA_7
+
+Estas 3 funciones son las más sencillas de este ejercicio, y se encargan de encontrar la columna en la que se sitúa S, comporbar si una posición (fila, columna) están dentro del rango y por último leer el archivo "input.txt" en el que está el ejemplo sobre el que trabajar.
+
+<img width="682" height="150" alt="image" src="https://github.com/user-attachments/assets/d53946a2-bce1-4541-98a4-8c6a884bdda7" />
+
+
+Esta función lo que hace es tomar una posición del mapa y devolver un vector con las coordenadas donde se dirigirá el haz de luz. Devolverá unas posiciones u otras dependiendo de lo que encientre por el camino que puede ser '.', '^' o 'S' (siempre y cuando estén dentro del rango).
+
+<img width="806" height="857" alt="image" src="https://github.com/user-attachments/assets/c6fd4960-c16a-4e81-a08c-469263672cf9" />
+
+La siguiente función se encarga de realizar la primera parte del ejercicio, devolver el número de divisones que se produce sobre el rayo, recorriendo el mapa como un grafo. Visitado es la matriz que se encarga de marcar qué celdas ya se procesaron para no contar doble. q es la cola para el recorrido y el int divisiones el contador de divisores (splitters) encontrados.
+
+<img width="788" height="894" alt="image" src="https://github.com/user-attachments/assets/7fb70d1d-d3d8-4bf0-b6b0-de28274d2706" />
+
+El bucle BFS, mientras hayan nodos en la cola saca la posición o en caso de estar visitada la salta. Marca como visitada y si encontramos splitter incrementa el contador ("divisiones").
+Mediante la función vecinos se decide dónde ir en el siguiente movimiento. 
+
+<img width="787" height="634" alt="image" src="https://github.com/user-attachments/assets/30d395c4-7bd0-4ef9-ad58-3d75f7b98498" />
+
+La última función relevante es contarTimelines, usada para la segunda parte. Esta lo que hace es mediante uso de memoria y recursividad, cuenta los posibles caminos del rayo. 
+
+El resto son llamadas a estas funciones para que se ejecuten (main y resolver_problema).
