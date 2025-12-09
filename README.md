@@ -24,3 +24,6 @@ Para la parte dos del problema, se modifica la función esInvalido, de manera qu
 
 Ahora las secuencias de números que se repitan como mínimo dos veces serán consideradas como inválidas.
 
+COMENTARIO A_O_C_DIA_4
+
+En el cuarto día nos piden crear un programa que lea un archivo que contiene secuenciuas de '.' y '@' donde las arrobas son rollos de papel. El programa te deberá indicar cuantos rollos son accesibles, siendolo estos cuando tienen menos de 4 arrobas en las 8 casillas adyacentes.
